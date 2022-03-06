@@ -1,0 +1,37 @@
+{
+   "name": "cooldown.js",
+   "version": "1.0.0",
+   "description": "A simple discord.js command cooldown manager",
+   "main": "lib/index.js",
+   "types": "lib/index.d.ts",
+   "dependencies": {},
+   "devDependencies": {
+      "typescript": "^4.5.5"
+   },
+   "scripts": {
+      "lint": "tslint -p tsconfig.json",
+      "prepare": "npm run build",
+      "prepublishOnly": "",
+      "version": "git add -A src",
+      "postversion": "git push --set-upstream origin master && git push --tags --set-upstream origin master",
+      "build": "tsc -p tsconfig.json"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mxgnus-de/cooldown.js.git"
+   },
+   "keywords": [
+      "cooldown",
+      "discord",
+      "discord.js"
+   ],
+   "author": "mxgnus",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/mxgnus-de/cooldown.js/issues"
+   },
+   "homepage": "https://github.com/mxgnus-de/cooldown.js#readme",
+   "files": [
+      "lib/**/*"
+   ]
+}
